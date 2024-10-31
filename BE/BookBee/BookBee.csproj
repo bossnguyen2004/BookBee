@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.12">
@@ -25,9 +26,31 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Persistences\Repositories\" />
-    <Folder Include="Services\" />
+    <Folder Include="Persistences\Repositories\AddressRepository\" />
+    <Folder Include="Persistences\Repositories\AuthorRepository\" />
+    <Folder Include="Persistences\Repositories\BookRepository\" />
+    <Folder Include="Persistences\Repositories\CartRepository\" />
+    <Folder Include="Persistences\Repositories\CategoryRepository\" />
+    <Folder Include="Persistences\Repositories\RatingRepository\" />
+    <Folder Include="Persistences\Repositories\QuantityRepository\" />
+    <Folder Include="Persistences\Repositories\PublisherRepository\" />
+    <Folder Include="Persistences\Repositories\OrderRepository\" />
+    <Folder Include="Services\AuthService\" />
+    <Folder Include="Services\AddressService\" />
+    <Folder Include="Services\AuthorService\" />
+    <Folder Include="Services\BookService\" />
+    <Folder Include="Services\CacheService\" />
+    <Folder Include="Services\CartService\" />
+    <Folder Include="Services\FileStorageService\" />
+    <Folder Include="Services\MailService\" />
+    <Folder Include="Services\CategoryService\" />
+    <Folder Include="Services\VNPayService\" />
+    <Folder Include="Services\UserService\" />
+    <Folder Include="Services\TokenService\" />
+    <Folder Include="Services\StatisticalService\" />
+    <Folder Include="Services\RatingService\" />
+    <Folder Include="Services\PublisherService\" />
+    <Folder Include="Services\OrderService\" />
   </ItemGroup>
 
 </Project>
